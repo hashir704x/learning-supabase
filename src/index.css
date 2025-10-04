@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+
+    form {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+    }
+}
+
+.task {
+    border: 2px solid purple;
+    padding: 10px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 500px;
+}
